@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+     <!-- Assignment 1-->
+    <form id="253" method="get" action="">
+    <label>Username</label>
+    <input autofocus minlength="5" maxlength="20" name="user">
+    <hr>
+
+    <label>Email</label>
+    <input readonly value="o@o.com" name="mail">
+    <hr>
+
+    <label>Token</label>
+    <input type="hidden" value="b92f1fc2fce391ad7af633723afd3055" name="token">
+    <hr>
+
+     <!-- Assignment 2 -->
+
+     <h3>Skills</h3>
+     <hr>
+     <div name="Skills">
+        <input id="1" type="checkbox" name="skills" value="Problem Solving" checked>
+        <label for="1">Problem Solving</label>
+        <br>
+
+        <input id="2" type="checkbox" name="skills" value="Logical thinking">
+        <label for="2">Logical thinking</label>
+        <br>
+
+        <input id="3" type="checkbox" name="skills" value="Advanced search">
+        <label for="3">Advanced search</label>
+        <br>
+
+        <input id="4" type="checkbox" name="skills" value="Analysis">
+        <label for="4">Analysis</label>
+        <br>
+
+        <input id="5" type="checkbox" name="skills" value="Planning">
+        <label for="5">Planning</label>
+        <br>
+     </div>
+
+     <h3>Job</h3>
+     <hr>
+
+     <div name="job">
+        <input id="6" type="radio" name="job" value="Front-end Developer" checked>
+        <label for="6">Front-end Developer</label>
+        <br>
+
+        <input id="7" type="radio" name="job" value="Back-end Developer">
+        <label for="7">Back-end Developer</label>
+        <br>
+
+        <input id="8" type="radio" name="job" value=" Business Analyst">
+        <label for="8"> Business Analyst</label>
+        <br>
+
+        <input id="9" type="radio" name="job" value="Project Manager">
+        <label for="9">Project Manager</label>
+        <br>
+
+        <input id="10" type="radio" name="job" value="Scrum Master">
+        <label for="10">Scrum Master</label>
+        <br>
+     </div>
+
+      <!-- Assignment 3 -->
+
+      <div>
+        <label for="choose">Choose Programming Languages</label>
+        <select id="choose" name="Programming Languages">
+
+         <optgroup label="PHP">
+            <option value="1">v5.0</option>
+            <option value="2">v7.0</option>
+            <option value="3">v8.0</option>
+         </optgroup>
+
+         <optgroup label="Python">
+            <option value="4">v2.0</option>
+            <option value="5">v3.0</option>
+            <option value="6">v3.9</option>
+         </optgroup>
+
+        </select>
+      </div>
+      <hr>
+      <textarea name="brief" placeholder=" Write Here Why You Want To Learn Programming"></textarea>
+    </form>
+    
+    <button type="reset" form="253">Empty</button>
+    <button type="submit" form="253">Send</button>
+
+</body>
+</html>
